@@ -32,9 +32,11 @@ using XNATools.Attributes;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.*")]
+
 #if DEBUG
 [assembly: AssemblyCodeName("Skull Kid")]
+[assembly: AssemblyVersion("0.0.0.0")]
 #else
 [assembly: AssemblyCodeName("Ghoma")]
+[assembly: AssemblyVersion("1.1.*")]
 #endif
