@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Flowing Red.png</Source>
+      <Name>Flowing Red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Flowing Red.xnb</Output>
+      <Time>2012-10-16T19:59:37.7017286+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Blue.png</Source>
+      <Name>Glow Blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Blue.xnb</Output>
+      <Time>2012-10-16T19:59:37.7027287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Green.png</Source>
+      <Name>Glow Green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Green.xnb</Output>
+      <Time>2012-10-16T19:59:37.7037287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Orange.png</Source>
+      <Name>Glow Orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Orange.xnb</Output>
+      <Time>2012-10-16T19:59:37.7037287+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Pink.png</Source>
+      <Name>Glow Pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Pink.xnb</Output>
+      <Time>2012-10-16T19:59:37.7047288+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Purple.png</Source>
+      <Name>Glow Purple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Purple.xnb</Output>
+      <Time>2012-10-16T19:59:37.7057288+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Teal.png</Source>
+      <Name>Glow Teal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Teal.xnb</Output>
+      <Time>2012-10-16T19:59:37.7067289+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Glow Yellow.png</Source>
+      <Name>Glow Yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Glow Yellow.xnb</Output>
+      <Time>2012-10-16T19:59:37.707729+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ColorPicker.png</Source>
+      <Name>ColorPicker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\ColorPicker.xnb</Output>
+      <Time>2012-12-10T10:20:44.5460254+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlueLMB.png</Source>
+      <Name>BlueLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\BlueLMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9708686+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlueMMB.png</Source>
+      <Name>BlueMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\BlueMMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9718686+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlueRMB.png</Source>
+      <Name>BlueRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\BlueRMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9728687+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlueX1.png</Source>
+      <Name>BlueX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\BlueX1.xnb</Output>
+      <Time>2012-12-12T05:58:16.9728687+01:00</Time>
+    </Item>
+    <Item>
+      <Source>BlueX2.png</Source>
+      <Name>BlueX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\BlueX2.xnb</Output>
+      <Time>2012-12-12T05:58:16.9738688+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GreenLMB.png</Source>
+      <Name>GreenLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\GreenLMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9738688+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GreenMMB.png</Source>
+      <Name>GreenMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\GreenMMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9748688+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GreenRMB.png</Source>
+      <Name>GreenRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\GreenRMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9758689+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GreenX1.png</Source>
+      <Name>GreenX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\GreenX1.xnb</Output>
+      <Time>2012-12-12T05:58:16.9768689+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GreenX2.png</Source>
+      <Name>GreenX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\GreenX2.xnb</Output>
+      <Time>2012-12-12T05:58:16.9768689+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OrangeLMB.png</Source>
+      <Name>OrangeLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\OrangeLMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.977869+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OrangeMMB.png</Source>
+      <Name>OrangeMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\OrangeMMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.978869+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OrangeRMB.png</Source>
+      <Name>OrangeRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\OrangeRMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9798691+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OrangeX1.png</Source>
+      <Name>OrangeX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\OrangeX1.xnb</Output>
+      <Time>2012-12-12T05:58:16.9808692+01:00</Time>
+    </Item>
+    <Item>
+      <Source>OrangeX2.png</Source>
+      <Name>OrangeX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\OrangeX2.xnb</Output>
+      <Time>2012-12-12T05:58:16.9818692+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PinkLMB.png</Source>
+      <Name>PinkLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PinkLMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9828693+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PinkMMB.png</Source>
+      <Name>PinkMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PinkMMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9828693+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PinkRMB.png</Source>
+      <Name>PinkRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PinkRMB.xnb</Output>
+      <Time>2012-12-12T05:58:16.9838693+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PinkX1.png</Source>
+      <Name>PinkX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PinkX1.xnb</Output>
+      <Time>2012-12-12T05:58:16.9848694+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PinkX2.png</Source>
+      <Name>PinkX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PinkX2.xnb</Output>
+      <Time>2012-12-12T05:58:16.9858694+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PurpleLMB.png</Source>
+      <Name>PurpleLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PurpleLMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0348722+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PurpleMMB.png</Source>
+      <Name>PurpleMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PurpleMMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0368724+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PurpleRMB.png</Source>
+      <Name>PurpleRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PurpleRMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0388725+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PurpleX1.png</Source>
+      <Name>PurpleX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PurpleX1.xnb</Output>
+      <Time>2012-12-12T05:58:17.0398725+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PurpleX2.png</Source>
+      <Name>PurpleX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\PurpleX2.xnb</Output>
+      <Time>2012-12-12T05:58:17.0418726+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RedLMB.png</Source>
+      <Name>RedLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\RedLMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0438728+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RedMMB.png</Source>
+      <Name>RedMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\RedMMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0448728+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RedRMB.png</Source>
+      <Name>RedRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\RedRMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0468729+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RedX1.png</Source>
+      <Name>RedX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\RedX1.xnb</Output>
+      <Time>2012-12-12T05:58:17.047873+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RedX2.png</Source>
+      <Name>RedX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\RedX2.xnb</Output>
+      <Time>2012-12-12T05:58:17.0498731+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TealLMB.png</Source>
+      <Name>TealLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\TealLMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0518732+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TealMMB.png</Source>
+      <Name>TealMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\TealMMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0528733+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TealRMB.png</Source>
+      <Name>TealRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\TealRMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0548734+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TealX1.png</Source>
+      <Name>TealX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\TealX1.xnb</Output>
+      <Time>2012-12-12T05:58:17.0558735+01:00</Time>
+    </Item>
+    <Item>
+      <Source>TealX2.png</Source>
+      <Name>TealX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\TealX2.xnb</Output>
+      <Time>2012-12-12T05:58:17.0578736+01:00</Time>
+    </Item>
+    <Item>
+      <Source>YellowLMB.png</Source>
+      <Name>YellowLMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\YellowLMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0598737+01:00</Time>
+    </Item>
+    <Item>
+      <Source>YellowMMB.png</Source>
+      <Name>YellowMMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\YellowMMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0608737+01:00</Time>
+    </Item>
+    <Item>
+      <Source>YellowRMB.png</Source>
+      <Name>YellowRMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\YellowRMB.xnb</Output>
+      <Time>2012-12-12T05:58:17.0628739+01:00</Time>
+    </Item>
+    <Item>
+      <Source>YellowX1.png</Source>
+      <Name>YellowX1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\YellowX1.xnb</Output>
+      <Time>2012-12-12T05:58:17.0678741+01:00</Time>
+    </Item>
+    <Item>
+      <Source>YellowX2.png</Source>
+      <Name>YellowX2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\YellowX2.xnb</Output>
+      <Time>2012-12-12T05:58:17.0698743+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MouseBase.png</Source>
+      <Name>MouseBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\MouseBase.xnb</Output>
+      <Time>2012-12-12T06:28:02.3919888+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard Base.png</Source>
+      <Name>Keyboard Base</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Keyboard Base.xnb</Output>
+      <Time>2012-12-19T16:02:56.7406078+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard Base SOT.png</Source>
+      <Name>Keyboard Base SOT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\Keyboard Base SOT.xnb</Output>
+      <Time>2012-12-19T16:39:17.8843621+01:00</Time>
+    </Item>
+    <Item>
+      <Source>WestC.png</Source>
+      <Name>WestC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\WestC.xnb</Output>
+      <Time>2012-12-19T17:23:36.6434344+01:00</Time>
+    </Item>
+    <Item>
+      <Source>WestO.png</Source>
+      <Name>WestO</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\WestO.xnb</Output>
+      <Time>2012-12-19T17:23:36.653435+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-12-09T05:30:18.2653522+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display BetaContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display BetaContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\Keyboard Display Beta\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-04-21T17:15:58.8247658+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

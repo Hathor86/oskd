@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="XNATools.Engine2D.Sprite">
+    <Position X="0.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AW0CAAIAAwwRQ6AnaAJBgAMEYAEECBAUAAIgkAAoIoY=</HashCode>
+      <FileName>2D\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Engine2D.Background">
+    <Position X="4" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Background.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Exceptions.CallBeforeLoadContentException">
+    <Position X="4" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\CallBeforeLoadContentException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Managers.ScreenManager">
+    <Position X="7.25" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EgAAgAAAAAICIBAAAgAAQhAAAAAQCAAQCAoECAAAAAA=</HashCode>
+      <FileName>Managers\ScreenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Diagnostics.FrameRateCounter">
+    <Position X="10.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAWAAAAAgAgAAAAAAAAAIAAAAAYAAAAAAACAAA=</HashCode>
+      <FileName>Diagnostics\FrameRateCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Diagnostics.DebugFrame">
+    <Position X="10.75" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAACAABgAAAAAAgAAAAQJAAQAAAAAE=</HashCode>
+      <FileName>Diagnostics\DebugFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Helper">
+    <Position X="14.25" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Helper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Scene" BaseTypeListCollapsed="true">
+    <Position X="4" Y="8" Width="4" />
+    <TypeIdentifier>
+      <HashCode>ACYAAAAAAAAAAxAQEAAABAQAAAAEAAAAAAAAAABQMAA=</HashCode>
+      <FileName>Scene.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XNATools.VectorExtension">
+    <Position X="14.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VectorExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Managers.ServiceManager">
+    <Position X="10.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABAAAAABAAAAAgAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Managers\ServiceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Managers.CachedContentManager&lt;TContenType&gt;">
+    <Position X="0.75" Y="25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CCYkAAAAAAQECFRQCAAABIQAAACEABAAAAAgQABQIAA=</HashCode>
+      <FileName>Managers\CachedContentManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="2.356" />
+  </Class>
+  <Class Name="XNATools.Font.FontInstance">
+    <Position X="13" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgACKIAAAAAAAwAoAAAAgAAAEQAAAgAAACCACAAAAAQ=</HashCode>
+      <FileName>Font\FontInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Services.MouseService">
+    <Position X="11.5" Y="28" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAwACAAIAAgJAQAgIAAIgIAAAEAAAAAIAAAQBGAIgAA=</HashCode>
+      <FileName>Services\MouseService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XNATools.Services.KeyboardService">
+    <Position X="7.5" Y="28" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAIAAAAAAAAAARAAEIAAAARDBAAAA=</HashCode>
+      <FileName>Services\KeyboardService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="XNATools.Exceptions.ServiceMissingException">
+    <Position X="2.75" Y="22" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\ServiceMissingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Services.ServiceBase">
+    <Position X="6.5" Y="22" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XNATools.Services.InputServiceBase">
+    <Position X="9.5" Y="24.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAIAAAAAAAAACEAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Services\InputServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.117" />
+  </Class>
+  <Class Name="XNATools.Services.GamePadService">
+    <Position X="15.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\GamePadService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Space.Box">
+    <Position X="23.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Space.Surface">
+    <Position X="25.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Surface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Attributes.AssemblyCodeNameAttribute">
+    <Position X="19.75" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\AssemblyCodeNameAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Managers.EffectManager">
+    <Position X="15.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\EffectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Services.AudioService">
+    <Position X="19.75" Y="7.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAQAAAA=</HashCode>
+      <FileName>Services\AudioService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Services.CameraService">
+    <Position X="17.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CameraService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XNATools.Sounds.AudioGameComponent">
+    <Position X="15.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAACAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Sounds\AudioGameComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="XNATools.Services.Interfaces.IService">
+    <Position X="7.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.IMouseService">
+    <Position X="10.25" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAAJAAAgAAAIAAAAAEAAAAAAAAAQBEAIgAA=</HashCode>
+      <FileName>Services\Interfaces\IMouseService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.IKeyboardService">
+    <Position X="6.75" Y="18.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAARBBAAAA=</HashCode>
+      <FileName>Services\Interfaces\IKeyboardService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.IInputService">
+    <Position X="9" Y="16.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IInputService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.ICacheManagerService&lt;TContentType&gt;">
+    <Position X="2.5" Y="16.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAABACAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ICacheManagerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.IAudioService">
+    <Position X="13" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IAudioService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.ICameraService">
+    <Position X="15.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\ICameraService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="XNATools.Services.Interfaces.IGamePadService">
+    <Position X="13.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Interfaces\IGamePadService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="XNATools.Enums.Layer">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAEEAAAAAAAAAAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>2D\Enums\Layer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.OutBorder">
+    <Position X="19.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAI=</HashCode>
+      <FileName>2D\Enums\OutBorder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.OutOfBoundsBehaviour">
+    <Position X="21.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>2D\Enums\OutOfBoundsBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.AspectRatio">
+    <Position X="18" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAI=</HashCode>
+      <FileName>Managers\Enums\AspectRatio.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.FrameDisplay">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Diagnostics\Enums\FrameDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.MouseButton">
+    <Position X="21.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACQQIEAAAA=</HashCode>
+      <FileName>Inputs\Enums\MouseButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="XNATools.Enums.BoxSideName">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3D\Enums\BoxSide.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

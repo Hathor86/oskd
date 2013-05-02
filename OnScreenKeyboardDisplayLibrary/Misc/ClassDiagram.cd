@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="OnScreenKeyboardDisplayLibrary.Configuration.Reader.KeyboardLayoutReader">
+    <Position X="3.75" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAJAAAAJAAAAAAAAQAAAgoCAAAQEEQAAAIEEA=</HashCode>
+      <FileName>Configuration\Reader\KeyboardLayoutReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Keyboard">
+    <Position X="7" Y="0.75" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Keyboard.KeyboardKey">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\KeyboardKey.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Keyboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse">
+    <Position X="11.75" Y="0.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse.MouseButton">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\MouseButton.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAABAggAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprites\Mouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.GlobalKeyboardService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.75" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="OnScreenKeyboardDisplayLibrary.GlobalKeyboardService.LowLevelKeyboardProc">
+        <TypeIdentifier>
+          <NewMemberFileName>GlobalKeyboardService.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>iIQAAAAAAAAAAAAQMAAADAAiAQERAAEKCAAARhFhASA=</HashCode>
+      <FileName>GlobalKeyboardService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.User32">
+    <Position X="19.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>User32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OnScreenKeyboardDisplayLibrary.Enums.KeyboardButtonType">
+    <Position X="17.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAACAABAAAAAAEAAAAAAAgAACAAQI=</HashCode>
+      <FileName>Enums\KeyboardButtonType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

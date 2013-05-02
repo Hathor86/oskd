@@ -1,0 +1,2 @@
+C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\Keyboard Display Beta\XNATools\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\XNATools\Content\obj\x86\Debug\ResolveAssemblyReference.cache
