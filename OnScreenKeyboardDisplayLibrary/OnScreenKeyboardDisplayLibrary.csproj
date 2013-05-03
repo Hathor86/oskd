@@ -102,6 +102,8 @@
     <Compile Include="Sprites\Keyboard.cs" />
     <Compile Include="Sprites\Mouse.cs" />
     <Compile Include="Sprites\MouseButton.cs" />
+    <Compile Include="Sprites\MousePositionContainer.cs" />
+    <Compile Include="Sprites\MousePositionFollower.cs" />
     <Compile Include="User32.cs" />
   </ItemGroup>
   <ItemGroup>

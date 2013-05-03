@@ -49,6 +49,9 @@ OSKDContent\Mouse\Yellow\MMB.xnb
 OSKDContent\Mouse\Yellow\RMB.xnb
 OSKDContent\Mouse\Yellow\X1.xnb
 OSKDContent\Mouse\Yellow\X2.xnb
+OSKDContent\Text.xnb
+OSKDContent\Circle.xnb
+OSKDContent\Dot.xnb
 XNAToolsContent\DebugFont.xnb
 XNAToolsContent\debug.xnb
 Configuration\BaseLayout.xml

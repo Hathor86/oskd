@@ -21,7 +21,7 @@ namespace XNATools
         /// <param name="offsetX">Offset in x</param>
         /// <param name="offsetY">Offest in y</param>
         /// <returns>Update vector</returns>
-        public static Vector2 Update(this Vector2 current, float offsetX, float offsetY)
+        /*public static Vector2 Update(this Vector2 current, float offsetX, float offsetY)
         {
             current.X += offsetX;
             current.Y += offsetY;
@@ -39,7 +39,7 @@ namespace XNATools
             current.X += offset.X;
             current.Y += offset.Y;
             return current;
-        }
+        }*/
        
         #endregion
     }
