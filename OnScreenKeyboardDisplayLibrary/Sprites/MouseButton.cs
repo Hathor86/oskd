@@ -20,8 +20,8 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             private const string TextureDirectory = "Mouse";
 
             private static readonly string HighlightColor;
-            
-            private static IMouseService mService;            
+
+            private static IMouseService mService;
 
             private Input.MouseButton _HandledButton;
 
@@ -30,8 +30,8 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             #region cTor(s)
 
             static MouseButton()
-            {              
-                HighlightColor = ConfigurationManager.AppSettings["Color"];            
+            {
+                HighlightColor = ConfigurationManager.AppSettings["Color"];
             }
 
             /// <summary>
@@ -48,6 +48,11 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             #endregion
 
             #region Methods
+
+            public void SetSource(Rectangle source)
+            {
+                this.Source = source;
+            }
 
             public override void Initialize()
             {
