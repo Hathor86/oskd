@@ -20,6 +20,13 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             #endregion
 
             #region Methods
+
+            public override void Initialize()
+            {
+                base.Initialize();
+                ForceTransformBounds();
+            }
+
             #endregion
         }
     }

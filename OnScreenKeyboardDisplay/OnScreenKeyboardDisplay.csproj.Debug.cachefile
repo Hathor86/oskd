@@ -53,6 +53,7 @@ OSKDContent\Circle.xnb
 OSKDContent\Dot.xnb
 OSKDContent\Text.xnb
 Configuration\BaseLayout.xml
+Configuration\Layouts\frFR.xml
 Configuration\Layouts\frBE.xml
 Configuration\Layouts\enUS.xml
 Configuration\LayoutSchema.xsd

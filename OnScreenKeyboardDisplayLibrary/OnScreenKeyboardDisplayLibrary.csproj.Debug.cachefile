@@ -55,6 +55,7 @@ OSKDContent\Text.xnb
 XNAToolsContent\DebugFont.xnb
 XNAToolsContent\debug.xnb
 Configuration\BaseLayout.xml
+Configuration\Layouts\frFR.xml
 Configuration\Layouts\frBE.xml
 Configuration\Layouts\enUS.xml
 Configuration\LayoutSchema.xsd

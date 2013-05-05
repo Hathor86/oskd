@@ -37,11 +37,6 @@ using XNATools.Attributes;
 [assembly: AssemblyCodeName("Skull Kid")]
 [assembly: AssemblyVersion("0.0.0.0")]
 #else
-<<<<<<< HEAD
-[assembly: AssemblyCodeName("Ghoma")]
-[assembly: AssemblyVersion("1.1.*")]
-=======
 [assembly: AssemblyCodeName("Morpheel")]
 [assembly: AssemblyVersion("2.0.*")]
->>>>>>> SkullKid
 #endif
