@@ -25,7 +25,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse">
-    <Position X="11.75" Y="0.75" Width="2.75" />
+    <Position X="11.75" Y="0.75" Width="3.25" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -35,9 +35,19 @@
           <NewMemberFileName>Sprites\MouseButton.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
+      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse.MousePositionContainer">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\MousePositionContainer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse.MousePositionFollower">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprites\MousePositionFollower.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAABAggAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQAAAAAAAAAAwAAIAAAAAAAAAAAAwgAAAAAAACAAAQ=</HashCode>
       <FileName>Sprites\Mouse.cs</FileName>
     </TypeIdentifier>
   </Class>

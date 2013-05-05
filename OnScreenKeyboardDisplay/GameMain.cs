@@ -53,18 +53,17 @@ namespace OnScreenKeyboardDisplay
             ServiceManager.AddSpriteBatch(new SpriteBatch(GraphicsDevice));
             spriteBatch = ServiceManager.Get<SpriteBatch>();
 
-            CachedContentManager<Texture2D> textureCache = new CachedContentManager<Texture2D>(this);
-            KeyboardLayoutReader.ReadConfigFile(Path.Combine(AppPath, "Configuration"));
-
-            keyboard = new Graph.Keyboard(this);
-            mouse = new Graph.Mouse(this);
-
             GlobalKeyboardService kService = new GlobalKeyboardService(this);
             kService.Hook();
 
             MouseService mService = new MouseService(this);
-
             IsMouseVisible = true;
+
+            CachedContentManager<Texture2D> textureCache = new CachedContentManager<Texture2D>(this);
+            KeyboardLayoutReader.ReadConfigFile(Path.Combine(AppPath, "Configuration"));
+
+            keyboard = new Graph.Keyboard(this);
+            mouse = new Graph.Mouse(this);            
 
             Assembly thisAssembly = Assembly.GetExecutingAssembly();
             AssemblyName thisAssemblyName = thisAssembly.GetName();

@@ -49,6 +49,9 @@ OSKDContent\Mouse\Yellow\MMB.xnb
 OSKDContent\Mouse\Yellow\RMB.xnb
 OSKDContent\Mouse\Yellow\X1.xnb
 OSKDContent\Mouse\Yellow\X2.xnb
+OSKDContent\Circle.xnb
+OSKDContent\Dot.xnb
+OSKDContent\Text.xnb
 Configuration\BaseLayout.xml
 Configuration\Layouts\Azerty_Test.xml
 Configuration\Layouts\Qwerty_US.xml

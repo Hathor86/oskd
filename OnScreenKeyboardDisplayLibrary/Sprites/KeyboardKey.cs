@@ -19,9 +19,8 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             #region Fields
 
             private const string HighlightTextureDirectory = "Keyboard";
-            private static readonly string HighlightColor;
-            
-            private static Texture2D _HighlightTexture;
+            private static readonly string HighlightColor;            
+           
             private static string _HighlightTexturePath;
             private static GlobalKeyboardService kService;
             private static ICacheManagerService<Texture2D> textureCacheService;
@@ -87,59 +86,27 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             }
 
             protected override void LoadContent()
-            {
-                if (_HighlightTexture == null)
-                {
-                    _HighlightTexture = textureCacheService[_HighlightTexturePath];
-                }
-                base.LoadContent();
+            {               
+                base.LoadContent();                
             }
 
             public override void Update(GameTime gameTime)
             {
                 if (_HandledKey == Keys.F23)
                 {
-                    if (kService.IsNumLockOn)
-                    {
-                        Texture = textureCacheService[_HighlightTexturePath];
-                    }
-                    else
-                    {
-                        Texture = textureCacheService["KeyboardBase"];
-                    }
+                    SwitchTexture(kService.IsNumLockOn);                   
                 }
                 else if (_HandledKey == Keys.F22)
                 {
-                    if (kService.IsCapsLockOn)
-                    {
-                        Texture = textureCacheService[_HighlightTexturePath];
-                    }
-                    else
-                    {
-                        Texture = textureCacheService["KeyboardBase"];
-                    }
+                   SwitchTexture(kService.IsCapsLockOn);                   
                 }
                 else if (_HandledKey == Keys.F21)
                 {
-                    if (kService.IsScrollLockOn)
-                    {
-                        Texture = textureCacheService[_HighlightTexturePath];
-                    }
-                    else
-                    {
-                        Texture = textureCacheService["KeyboardBase"];
-                    }
+                    SwitchTexture(kService.IsScrollLockOn);                    
                 }
                 else
                 {
-                    if (kService.IsKeyDown(_HandledKey))
-                    {
-                        Texture = textureCacheService[_HighlightTexturePath];
-                    }
-                    else
-                    {
-                        Texture = textureCacheService["KeyboardBase"];
-                    }
+                    SwitchTexture(kService.IsKeyDown(_HandledKey));                    
                 }                
                 base.Update(gameTime);
             }
@@ -157,6 +124,18 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
                 }
 
                 base.Draw(gameTime);
+            }
+
+            private void SwitchTexture(bool isHighlighted)
+            {
+                if (isHighlighted)
+                {
+                    Texture = textureCacheService[_HighlightTexturePath];
+                }
+                else
+                {
+                    Texture = textureCacheService["KeyboardBase"];
+                }
             }
 
             #endregion

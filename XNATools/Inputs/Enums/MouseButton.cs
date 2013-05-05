@@ -34,6 +34,6 @@ namespace XNATools.Enums
         /// <summary>
         /// Side right button
         /// </summary>
-        SideRight
+        SideRight       
     }
 }

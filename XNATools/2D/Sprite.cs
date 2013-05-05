@@ -34,8 +34,8 @@ namespace XNATools.Engine2D
         public static readonly Color DefaultColor = Color.White;
 
         private static SpriteBatch _SpriteBatch;
-        private static int _RightBound;
-        private static int _LowerBound;
+        //private static int _RightBound;
+        //private static int _LowerBound;
 
         private bool _Initialized = false;
         private string _AssetName;
@@ -95,9 +95,7 @@ namespace XNATools.Engine2D
             {
                 _SpriteBatch = ServiceManager.Get<SpriteBatch>();
             }
-
-            _RightBound = game.Window.ClientBounds.Width;
-            _LowerBound = game.Window.ClientBounds.Height;
+           
             game.Components.Add(this);
         }
 
@@ -132,7 +130,13 @@ namespace XNATools.Engine2D
         /// </summary>
         public override void Initialize()
         {
-            base.Initialize();            
+            base.Initialize();
+
+            _DefaultBounds = new Rectangle(0, 0, _Texture.Width, _Texture.Height);
+            _BaseSize = new Vector2(_DefaultBounds.Width, _DefaultBounds.Height);
+            _SourceRectangle = new Rectangle(0, 0, _Texture.Width, _Texture.Height);
+            GetCenter();
+         
             _Initialized = true;
         }
 
@@ -223,11 +227,12 @@ namespace XNATools.Engine2D
         private void UpdateBounds()
         {
             float f = _SourceRectangle.Width * _Scale.X;
-            f = (float)Math.Round(f, 0);
+            f = (float)Math.Round(f, 0);            
             _DefaultBounds.Width = f == 0 ? 1 : (int)f;
             f = _SourceRectangle.Height * _Scale.Y;
             f = (float)Math.Round(f, 0);
-            _DefaultBounds.Height = f == 0 ? 1 : (int)f;            
+            _DefaultBounds.Height = f == 0 ? 1 : (int)f;
+            ForceTransformBounds();
             GetCenter();
         }
 
@@ -274,10 +279,10 @@ namespace XNATools.Engine2D
         /// <remarks>Doesn't care of texture width by default</remarks>
         /// </summary>
         /// <returns>True if Sprite exits of the bounds; otherwise, false</returns>
-        protected bool IsOutOfBounds(out OutBorder outBorder)
+        /*protected bool IsOutOfBounds(out OutBorder outBorder)
         {
             return IsOutOfBounds(out outBorder, OutOfBoundsBehaviour.None);
-        }
+        }*/
 
         /// <summary>
         /// Returns a bool that define if sprites is out of the bounds(GameWindow)
@@ -285,7 +290,7 @@ namespace XNATools.Engine2D
         /// <param name="outBorder">Border where Sprite is out</param>
         /// <param name="behaviour">Define behaviour with texture</param>        
         /// <returns>True if Sprite exits of the bounds; otherwise, false</returns>
-        protected bool IsOutOfBounds(out OutBorder outBorder, OutOfBoundsBehaviour behaviour)
+        /*protected bool IsOutOfBounds(out OutBorder outBorder, OutOfBoundsBehaviour behaviour)
         {
             bool upTest;
             bool downTest;
@@ -328,7 +333,7 @@ namespace XNATools.Engine2D
                 outBorder = OutBorder.Down;
 
             return leftTest || rightTest || upTest || downTest;
-        }
+        }*/
 
         /// <summary>
         /// Force bounds tranformation
@@ -338,18 +343,7 @@ namespace XNATools.Engine2D
         {
             GetTransform();
             TransformBounds();
-        }
-
-        /// <summary>
-        /// Set default values for source, bounds etc..
-        /// </summary>
-        protected void SetDefault()
-        {
-            _DefaultBounds = new Rectangle(0, 0, _Texture.Width, _Texture.Height);
-            _BaseSize = new Vector2(_DefaultBounds.Width, _DefaultBounds.Height);
-            _SourceRectangle = new Rectangle(0, 0, _Texture.Width, _Texture.Height);
-            GetCenter();
-        }
+        }      
 
         /// <summary>
         /// Determine whether a specied sprite intersects another.
@@ -555,7 +549,7 @@ namespace XNATools.Engine2D
         /// <summary>
         /// Gets LowerBound
         /// </summary>
-        public int LowerBound
+        /*public int LowerBound
         {
             get
             {
@@ -572,7 +566,7 @@ namespace XNATools.Engine2D
             {
                 return _RightBound;
             }
-        }
+        }*/
 
         /// <summary>
         /// Gets LeftBound
