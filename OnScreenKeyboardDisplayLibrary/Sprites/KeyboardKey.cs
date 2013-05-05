@@ -19,8 +19,9 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             #region Fields
 
             private const string HighlightTextureDirectory = "Keyboard";
-            private static readonly string HighlightColor;            
-           
+            private static readonly string HighlightColor;
+            private static readonly bool UseScrollLock;
+
             private static string _HighlightTexturePath;
             private static GlobalKeyboardService kService;
             private static ICacheManagerService<Texture2D> textureCacheService;
@@ -34,6 +35,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             static KeyboardKey()
             {
                 HighlightColor = ConfigurationManager.AppSettings["Color"];
+                UseScrollLock = bool.Parse(ConfigurationManager.AppSettings["ScrollLock"]);
             }
 
             /// <summary>
@@ -43,9 +45,9 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             /// <param name="handledKey">The key that must be handled</param>
             public KeyboardKey(Game game, Keys handledKey)
                 : base(game, "KeyboardBase", Layer.Highlight)
-            {                
+            {
                 this._HandledKey = handledKey;
-                _HighlightTexturePath = string.Format("{0}\\{1}", HighlightTextureDirectory, HighlightColor);               
+                _HighlightTexturePath = string.Format("{0}\\{1}", HighlightTextureDirectory, HighlightColor);
             }
 
             #endregion
@@ -80,47 +82,50 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
                 if (textureCacheService == null)
                 {
                     textureCacheService = ServiceManager.Get<ICacheManagerService<Texture2D>>();
-                }               
+                }
 
                 base.Initialize();
             }
 
             protected override void LoadContent()
-            {               
-                base.LoadContent();                
+            {
+                base.LoadContent();
             }
 
             public override void Update(GameTime gameTime)
             {
                 if (_HandledKey == Keys.F23)
                 {
-                    SwitchTexture(kService.IsNumLockOn);                   
+                    SwitchTexture(kService.IsNumLockOn);
                 }
                 else if (_HandledKey == Keys.F22)
                 {
-                   SwitchTexture(kService.IsCapsLockOn);                   
+                    SwitchTexture(kService.IsCapsLockOn);
                 }
                 else if (_HandledKey == Keys.F21)
                 {
-                    SwitchTexture(kService.IsScrollLockOn);                    
+                    SwitchTexture(kService.IsScrollLockOn);
                 }
                 else
                 {
-                    SwitchTexture(kService.IsKeyDown(_HandledKey));                    
-                }                
+                    SwitchTexture(kService.IsKeyDown(_HandledKey));
+                }
                 base.Update(gameTime);
             }
 
             public override void Draw(GameTime gameTime)
             {
                 //Force using of scroll key to handle
-                if (System.Windows.Forms.Control.IsKeyLocked(System.Windows.Forms.Keys.Scroll))
+                if (UseScrollLock)
                 {
-                    this.Enabled = true;
-                }
-                else
-                {
-                    this.Enabled = false;
+                    if (System.Windows.Forms.Control.IsKeyLocked(System.Windows.Forms.Keys.Scroll))
+                    {
+                        this.Enabled = true;
+                    }
+                    else
+                    {
+                        this.Enabled = false;
+                    }
                 }
 
                 base.Draw(gameTime);

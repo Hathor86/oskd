@@ -7,6 +7,7 @@ using System.Xml.Schema;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using OnScreenKeyboardDisplayLibrary.Enums;
+using System.Configuration;
 
 namespace OnScreenKeyboardDisplayLibrary.Configuration.Reader
 {
@@ -18,7 +19,7 @@ namespace OnScreenKeyboardDisplayLibrary.Configuration.Reader
         private const string LayoutSchema = "LayoutSchema.xsd";
         private const string LayoutDirectory = "Layouts";
 
-        private static string layoutName = "Azerty_Test";
+        private static readonly string layoutName;
 
         private static Dictionary<Keys, Rectangle[]> _Innerlist = new Dictionary<Keys, Rectangle[]>();
 
@@ -29,6 +30,12 @@ namespace OnScreenKeyboardDisplayLibrary.Configuration.Reader
         #endregion
 
         #region cTor(s)
+
+        static KeyboardLayoutReader()
+        {
+            layoutName = string.Format("{0}.xml",ConfigurationManager.AppSettings["KeyboardLayout"]);
+        }
+
         #endregion
 
         #region Methods
@@ -40,8 +47,6 @@ namespace OnScreenKeyboardDisplayLibrary.Configuration.Reader
         /// <param name="path"></param>
         public static void ReadConfigFile(string path)
         {
-            layoutName = string.Format("{0}.xml", layoutName);
-
             using (FileStream baselayoutStream = new FileStream(Path.Combine(path, BaseLayout), FileMode.Open))
             using (FileStream schemaStream = new FileStream(Path.Combine(path, LayoutSchema), FileMode.Open))
             using (FileStream layoutStream = new FileStream(Path.Combine(path, LayoutDirectory, layoutName), FileMode.Open))

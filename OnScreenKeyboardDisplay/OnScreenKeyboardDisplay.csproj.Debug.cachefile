@@ -53,8 +53,8 @@ OSKDContent\Circle.xnb
 OSKDContent\Dot.xnb
 OSKDContent\Text.xnb
 Configuration\BaseLayout.xml
-Configuration\Layouts\Azerty_Test.xml
-Configuration\Layouts\Qwerty_US.xml
+Configuration\Layouts\frBE.xml
+Configuration\Layouts\enUS.xml
 Configuration\LayoutSchema.xsd
 XNAToolsContent\DebugFont.xnb
 XNAToolsContent\debug.xnb

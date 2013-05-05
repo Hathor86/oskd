@@ -55,6 +55,6 @@ OSKDContent\Text.xnb
 XNAToolsContent\DebugFont.xnb
 XNAToolsContent\debug.xnb
 Configuration\BaseLayout.xml
-Configuration\Layouts\Azerty_Test.xml
-Configuration\Layouts\Qwerty_US.xml
+Configuration\Layouts\frBE.xml
+Configuration\Layouts\enUS.xml
 Configuration\LayoutSchema.xsd
