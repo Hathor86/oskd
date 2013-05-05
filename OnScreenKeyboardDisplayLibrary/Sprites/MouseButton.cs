@@ -90,9 +90,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
 
                 AssetName = string.Format("{0}\\{1}\\{2}", TextureDirectory, HighlightColor, assetName);
 
-                base.Initialize();
-
-                SetDefault();
+                base.Initialize();               
 
                 Scale = new Vector2(1.5f, 1.5f);
             }

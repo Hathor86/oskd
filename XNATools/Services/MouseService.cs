@@ -81,12 +81,12 @@ namespace XNATools.Services
                 || IsButtonJustPressed(MouseButton.Right)
                 || IsButtonJustPressed(MouseButton.Middle)
                 || IsButtonJustPressed(MouseButton.SideLeft)
-                || IsButtonJustPressed(MouseButton.SideRight)
+                || IsButtonJustPressed(MouseButton.SideRight)              
                 || IsButtonJustReleased(MouseButton.Left)
                 || IsButtonJustReleased(MouseButton.Right)
                 || IsButtonJustReleased(MouseButton.Middle)
                 || IsButtonJustReleased(MouseButton.SideLeft)
-                || IsButtonJustReleased(MouseButton.SideRight)
+                || IsButtonJustReleased(MouseButton.SideRight)               
                 || MouseWheelOffset != 0;
         }
 
@@ -199,7 +199,7 @@ namespace XNATools.Services
                     return _State.XButton1 == ButtonState.Pressed;
 
                 case MouseButton.SideRight:
-                    return _State.XButton2 == ButtonState.Pressed;
+                    return _State.XButton2 == ButtonState.Pressed;               
 
                 default:
                     throw new NotImplementedException("A new mouse button has been created and has not been handled");

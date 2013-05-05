@@ -29,7 +29,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
         public Mouse(Game game)
             : base(game, "MouseBase", Input.Layer.Artwork)
         {
-            buttons = new MouseButton[5];
+            buttons = new MouseButton[7];
         }
 
         #endregion
@@ -49,8 +49,8 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             buttons[2].Position = position;
             buttons[3].Position = position;
             buttons[4].Position = position;
-            /*buttons[5].Position = position;
-            buttons[6].Position = position;*/
+            buttons[5].Position = position;
+            buttons[6].Position = new Vector2(buttons[5].Position.X, buttons[5].Position.Y + buttons[5].Bounds.Bottom);
 
             float positionX = this.Position.X + this.Center.X - positionContainer.Texture.Width / 2;
             float positionY = this.Position.Y + this.Center.Y - positionContainer.Texture.Height / 2;
@@ -70,28 +70,26 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             buttons[2] = new MouseButton(Game, Input.MouseButton.Middle);
             buttons[3] = new MouseButton(Game, Input.MouseButton.SideLeft);
             buttons[4] = new MouseButton(Game, Input.MouseButton.SideRight);
-            /*buttons[5] = new MouseButton(Game, Input.MouseButton.Middle);//Mousewheel up
-            buttons[6] = new MouseButton(Game, Input.MouseButton.Middle);//Mousewheel down*/
+            buttons[5] = new MouseButton(Game, Input.MouseButton.Middle);//Mousewheel up
+            buttons[6] = new MouseButton(Game, Input.MouseButton.Middle);//Mousewheel down
 
             /*Remove mouswheel from game component
             We'll handle it manually*/
-            //Game.Components.Remove(buttons[5]);
-            //Game.Components.Remove(buttons[6]);
+            Game.Components.Remove(buttons[5]);
+            Game.Components.Remove(buttons[6]);
 
-            /*buttons[5].Initialize();
-            buttons[6].Initialize();
-            buttons[5].Enabled = false;
-            buttons[6].Enabled = false;*/
+            buttons[5].Initialize();
+            buttons[6].Initialize();            
 
             positionContainer = new MousePositionContainer(Game);
             positionFollower = new MousePositionFollower(Game);
 
             base.Initialize();
 
-            /*buttons[5].SetSource(new Rectangle(buttons[5].Source.X, buttons[5].Source.Y, buttons[5].Source.Width, 39));
-            buttons[6].SetSource(new Rectangle(buttons[6].Source.X, buttons[6].Source.Y + 39, buttons[6].Source.Width, buttons[6].Source.Height - 39));*/
+            buttons[5].SetSource(new Rectangle(buttons[5].Source.X, buttons[5].Source.Y, buttons[5].Source.Width, 39));
+            buttons[6].SetSource(new Rectangle(buttons[6].Source.X, buttons[6].Source.Y + 39, buttons[6].Source.Width, buttons[6].Source.Height - 39));            
 
-            SetDefault();
+            //SetDefault();
 
             Scale = new Vector2(1.5f, 1.5f);
         }
@@ -109,11 +107,9 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
 
         public override void Draw(GameTime gameTime)
         {
-            base.Draw(gameTime);
+            base.Draw(gameTime);            
 
-            //ServiceManager.Get<Microsoft.Xna.Framework.Graphics.SpriteBatch>().Draw(buttons[5].Texture, buttons[5].Position, buttons[5].Source, Color.White,0,Vector2.Zero,3f,Effect,0f);
-
-            /*if (mouseService.MouseWheelOffset < 0)
+            if (mouseService.MouseWheelOffset < 0)
             {
                 buttons[5].Draw(gameTime);
             }
@@ -121,7 +117,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             if (mouseService.MouseWheelOffset > 0)
             {
                 buttons[6].Draw(gameTime);
-            }*/
+            }
         }
 
         #endregion
