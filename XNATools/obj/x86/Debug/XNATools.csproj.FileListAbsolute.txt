@@ -14,3 +14,11 @@ C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\XNATools
 C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\XNATools\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\XNATools\obj\x86\Debug\XNATools.dll
 C:\Data\Mes documents\Visual Studio 2010\Projects\Keyboard Display Beta\XNATools\obj\x86\Debug\XNATools.pdb
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\bin\x86\Debug\XNAToolsContent\DebugFont.xnb
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\bin\x86\Debug\XNAToolsContent\debug.xnb
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\bin\x86\Debug\XNATools.dll
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\bin\x86\Debug\XNATools.pdb
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\obj\x86\Debug\XNATools.dll
+C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\XNATools\obj\x86\Debug\XNATools.pdb
