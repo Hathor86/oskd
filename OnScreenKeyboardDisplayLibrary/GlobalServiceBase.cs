@@ -25,9 +25,8 @@ namespace OnScreenKeyboardDisplayLibrary
         [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         private static extern IntPtr GetModuleHandle(string lpModuleName);
 
-
         [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
-        protected static extern IntPtr CallNextHookEx(IntPtr hookID, int nCode, IntPtr wParam, IntPtr lParam);
+        protected static extern IntPtr CallNextHookEx(IntPtr hookID, int nCode, IntPtr wParam, IntPtr lParam);       
 
         private LowLevelProc _Proc;
         

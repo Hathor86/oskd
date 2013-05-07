@@ -55,6 +55,7 @@ namespace OnScreenKeyboardDisplay
 
             GlobalMouseService mService = new GlobalMouseService(this);
             mService.Hook();
+            //MouseService mService = new MouseService(this);
             IsMouseVisible = true;
 
             CachedContentManager<Texture2D> textureCache = new CachedContentManager<Texture2D>(this);
