@@ -17,7 +17,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
         private IMouseService mouseService;
         private MouseButton[] buttons;
         private MousePositionContainer positionContainer;
-        private MousePositionFollower positionFollower;
+        private MousePositionTracker positionFollower;
 
         private Vector2 followerPositionHelper;
         private int containerBound;
@@ -71,7 +71,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             switch (ConfigurationManager.AppSettings["Color"])
             {
                 case "Blue":
-                    return Color.Blue;
+                    return Color.LightBlue;
 
                 case "Green":
                     return Color.Green;
@@ -121,7 +121,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             buttons[6].Initialize();
 
             positionContainer = new MousePositionContainer(Game);
-            positionFollower = new MousePositionFollower(Game);
+            positionFollower = new MousePositionTracker(Game);
             positionContainer.Color = GetColor();
             positionFollower.Color = GetColor();
 
@@ -129,8 +129,6 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
 
             buttons[5].SetSource(new Rectangle(buttons[5].Source.X, buttons[5].Source.Y, buttons[5].Source.Width, 39));
             buttons[6].SetSource(new Rectangle(buttons[6].Source.X, buttons[6].Source.Y + 39, buttons[6].Source.Width, buttons[6].Source.Height - 39));
-
-            //SetDefault();
 
             Scale = new Vector2(1.5f, 1.5f);
         }
@@ -145,7 +143,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
             containerBound = (positionContainer.Bounds.Width / 2) - positionFollower.Bounds.Width;
             followerPositionHelper.X = MathHelper.Clamp(-mouseService.Offset.X, -containerBound, containerBound);
             followerPositionHelper.Y = MathHelper.Clamp(-mouseService.Offset.Y, -containerBound, containerBound);
-            positionFollower.Position = Vector2.SmoothStep(positionFollower.Position, Vector2.Add(positionFollower.InitialPosition, followerPositionHelper), .5f);
+            positionFollower.Position = Vector2.SmoothStep(positionFollower.Position, Vector2.Add(positionFollower.InitialPosition, followerPositionHelper), 0.5f);
             base.Update(gameTime);
         }
 

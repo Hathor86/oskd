@@ -40,5 +40,9 @@
 			<Name>XNATools</Name>
 			<Project>{286D6990-2938-468D-B72E-8A6B173E37D2}</Project>
 		</ProjectReference>
+		<ProjectReference Include="..\OSKDConfig\OSKDConfig.csproj">
+			<Name>OSKDConfig</Name>
+			<Project>{C110272C-B3E3-4E44-A62C-F1E7535B6B4C}</Project>
+		</ProjectReference>
 	</ItemGroup>
 </Project>

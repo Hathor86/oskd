@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="OnScreenKeyboardDisplayLibrary.Configuration.Reader.KeyboardLayoutReader">
-    <Position X="3.75" Y="0.75" Width="3" />
+    <Position X="17.5" Y="3.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAJAAAAJAAAAAAAAQAAAgoCAAAQEEQAAAIEEA=</HashCode>
       <FileName>Configuration\Reader\KeyboardLayoutReader.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Keyboard">
-    <Position X="7" Y="0.75" Width="4.25" />
+    <Position X="9.25" Y="0.75" Width="4.25" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -25,7 +25,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse">
-    <Position X="11.75" Y="0.75" Width="3.25" />
+    <Position X="14" Y="0.75" Width="3.25" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -40,31 +40,24 @@
           <NewMemberFileName>Sprites\MousePositionContainer.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
-      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse.MousePositionFollower">
+      <Class Name="OnScreenKeyboardDisplayLibrary.Sprites.Mouse.MousePositionTracker">
         <TypeIdentifier>
-          <NewMemberFileName>Sprites\MousePositionFollower.cs</NewMemberFileName>
+          <NewMemberFileName>Sprites\MousePositionTracker.cs</NewMemberFileName>
         </TypeIdentifier>
       </Class>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAwAAIAAAAAAAAAAAAwgAAAAAAACAAAQ=</HashCode>
+      <HashCode>AAQAAAAAAAAABwAAIAIAAAAAAAAAAwiAAAAAAACAAAQ=</HashCode>
       <FileName>Sprites\Mouse.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OnScreenKeyboardDisplayLibrary.GlobalKeyboardService" BaseTypeListCollapsed="true">
-    <Position X="0.5" Y="0.75" Width="3" />
+    <Position X="0.5" Y="7.25" Width="3" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
-    <NestedTypes>
-      <Delegate Name="OnScreenKeyboardDisplayLibrary.GlobalKeyboardService.LowLevelKeyboardProc">
-        <TypeIdentifier>
-          <NewMemberFileName>GlobalKeyboardService.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Delegate>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>iIQAAAAAAAAAAAAQMAAADAAiAQERAAEKCAAARhFhASA=</HashCode>
+      <HashCode>gAQAAAAAAAAAAAAQIAAABAACAQERAAEKCAAARhBBASA=</HashCode>
       <FileName>GlobalKeyboardService.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -76,8 +69,48 @@
       <FileName>User32.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.GlobalMouseService">
+    <Position X="4" Y="7.25" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OnScreenKeyboardDisplayLibrary.GlobalMouseService.POINT">
+        <TypeIdentifier>
+          <NewMemberFileName>GlobalMouseServiceNestedTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="OnScreenKeyboardDisplayLibrary.GlobalMouseService.MouseLLHookStruct">
+        <TypeIdentifier>
+          <NewMemberFileName>GlobalMouseServiceNestedTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EBwACAAIAAgJAQAgIAAIgIACAEEAAAAIAIgQBGAIgAA=</HashCode>
+      <FileName>GlobalMouseService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OnScreenKeyboardDisplayLibrary.GlobalServiceBase">
+    <Position X="3" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="OnScreenKeyboardDisplayLibrary.GlobalServiceBase.LowLevelProc">
+        <TypeIdentifier>
+          <NewMemberFileName>GlobalServiceBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAGAAADAAiAAEAAAAAAAIAAAEgAAA=</HashCode>
+      <FileName>GlobalServiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Enum Name="OnScreenKeyboardDisplayLibrary.Enums.KeyboardButtonType">
-    <Position X="17.5" Y="1" Width="1.5" />
+    <Position X="20.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAABAAAAAAAAACAABAAAAAAEAAAAAAAgAACAAQI=</HashCode>
       <FileName>Enums\KeyboardButtonType.cs</FileName>

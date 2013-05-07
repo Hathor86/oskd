@@ -6,7 +6,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
 {
     public partial class Mouse : Sprite
     {
-        private class MousePositionFollower : Sprite
+        private class MousePositionTracker : Sprite
         {
             #region Fields
 
@@ -16,7 +16,7 @@ namespace OnScreenKeyboardDisplayLibrary.Sprites
 
             #region cTor(s)
 
-            public MousePositionFollower(Game game)
+            public MousePositionTracker(Game game)
                 : base(game, "Dot", Input.Layer.Artwork, 1)
             { }
 

@@ -357,6 +357,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td>{2A21C70F-90F5-4C93-B87D-08FC52D37098}</td><td>GREEN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td>{1FD01DEB-6C3D-427B-8683-27A679694CDF}</td><td>ORANGE</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>NewComponent1</td><td>{28817E31-8C73-4CC2-97C3-392A5F8E8352}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>OSKDConfig.Primary_output</td><td>{8BC059BD-E89C-4B6E-B1F3-1732C6C04CE6}</td><td>INSTALLDIR</td><td>2</td><td/><td>oskdconfig.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>OnScreenKeyboardDisplay.Primary_output</td><td>{E152A34B-AAC4-4388-8768-DF3282236C34}</td><td>INSTALLDIR</td><td>2</td><td/><td>onscreenkeyboarddisplay.prim</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>OnScreenKeyboardDisplayLibrary.Primary_output</td><td>{81972EA4-5674-46F5-97C3-1ED1AB7F95AA}</td><td>INSTALLDIR</td><td>2</td><td/><td>onscreenkeyboarddisplaylibra</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>XNATools.Primary_output</td><td>{54A19D3B-B21F-414C-A552-D219A2E7385D}</td><td>INSTALLDIR</td><td>2</td><td/><td>xnatools.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1914,6 +1915,7 @@
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT8</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT9</td></row>
 		<row><td>AlwaysInstall</td><td>NewComponent1</td></row>
+		<row><td>AlwaysInstall</td><td>OSKDConfig.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>OnScreenKeyboardDisplay.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>OnScreenKeyboardDisplayLibrary.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>XNATools.Primary_output</td></row>
@@ -1933,9 +1935,11 @@
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>baselayout.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>BASELA~1.XML|BaseLayout.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\Configuration\BaseLayout.xml</td><td>1</td><td/></row>
 		<row><td>blue.xnb</td><td>ISX_DEFAULTCOMPONENT4</td><td>Blue.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Keyboard\Blue.xnb</td><td>1</td><td/></row>
+		<row><td>circle.xnb</td><td>ISX_DEFAULTCOMPONENT</td><td>Circle.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Circle.xnb</td><td>1</td><td/></row>
 		<row><td>colorpicker.xnb</td><td>ISX_DEFAULTCOMPONENT</td><td>COLORP~1.XNB|ColorPicker.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\ColorPicker.xnb</td><td>1</td><td/></row>
 		<row><td>debug.xnb</td><td>ISX_DEFAULTCOMPONENT6</td><td>debug.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\XNAToolsContent\debug.xnb</td><td>1</td><td/></row>
 		<row><td>debugfont.xnb</td><td>ISX_DEFAULTCOMPONENT6</td><td>DEBUGF~1.XNB|DebugFont.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\XNAToolsContent\DebugFont.xnb</td><td>1</td><td/></row>
+		<row><td>dot.xnb</td><td>ISX_DEFAULTCOMPONENT</td><td>Dot.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Dot.xnb</td><td>1</td><td/></row>
 		<row><td>enus.xml</td><td>ISX_DEFAULTCOMPONENT3</td><td>enUS.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\Configuration\Layouts\enUS.xml</td><td>1</td><td/></row>
 		<row><td>frbe.xml</td><td>ISX_DEFAULTCOMPONENT3</td><td>frBE.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\Configuration\Layouts\frBE.xml</td><td>1</td><td/></row>
 		<row><td>frfr.xml</td><td>ISX_DEFAULTCOMPONENT3</td><td>frFR.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\Configuration\Layouts\frFR.xml</td><td>1</td><td/></row>
@@ -1962,6 +1966,7 @@
 		<row><td>onscreenkeyboarddisplay.prim</td><td>OnScreenKeyboardDisplay.Primary_output</td><td>OnScreenKeyboardDisplay.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;OnScreenKeyboardDisplay&gt;|Built</td><td>3</td><td/></row>
 		<row><td>onscreenkeyboarddisplaylibra</td><td>OnScreenKeyboardDisplayLibrary.Primary_output</td><td>OnScreenKeyboardDisplayLibrary.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;OnScreenKeyboardDisplayLibrary&gt;|Built</td><td>3</td><td/></row>
 		<row><td>orange.xnb</td><td>ISX_DEFAULTCOMPONENT4</td><td>Orange.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Keyboard\Orange.xnb</td><td>1</td><td/></row>
+		<row><td>oskdconfig.primary_output</td><td>OSKDConfig.Primary_output</td><td>OSKDConfig.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;OSKDConfig&gt;|Built</td><td>3</td><td/></row>
 		<row><td>pink.xnb</td><td>ISX_DEFAULTCOMPONENT4</td><td>Pink.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Keyboard\Pink.xnb</td><td>1</td><td/></row>
 		<row><td>purple.xnb</td><td>ISX_DEFAULTCOMPONENT4</td><td>Purple.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Keyboard\Purple.xnb</td><td>1</td><td/></row>
 		<row><td>red.xnb</td><td>ISX_DEFAULTCOMPONENT4</td><td>Red.xnb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplay\bin\x86\Release\OSKDContent\Keyboard\Red.xnb</td><td>1</td><td/></row>
@@ -2264,6 +2269,7 @@
 		<row><td>ISX_DEFAULTCOMPONENT8</td><td/><td/><td>_496C5932_D43B_437D_9DE5_8026FE2E1802_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT9</td><td/><td/><td>_BBD27679_DF9E_4829_9ED8_209F1F44A22E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>NewComponent1</td><td/><td/><td>_C7985052_C1C4_402C_A0C9_E372AD26AEB8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>OSKDConfig.Primary_output</td><td/><td/><td>_681131CD_EE98_4C93_84FC_2D878F8CA0DD_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>OnScreenKeyboardDisplay.Primary_output</td><td/><td/><td>_3ADC3882_7714_464F_AAD4_21DAC4531AA0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>OnScreenKeyboardDisplayLibrary.Primary_output</td><td/><td/><td>_D30F96BD_972A_4CC4_AC25_8902B17A7EAC_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>XNATools.Primary_output</td><td/><td/><td>_B1F616E8_E476_433D_8690_41D27647A2D8_FILTER</td><td/><td/><td/><td/></row>
@@ -2583,6 +2589,7 @@
 		<row><td>ISProductFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISProjectDataFolder</td><td/><td/><td>1</td></row>
 		<row><td>ISProjectFolder</td><td/><td/><td>1</td></row>
+		<row><td>OSKDConfig</td><td>OSKDConfig\OSKDConfig.csproj</td><td/><td>2</td></row>
 		<row><td>OSKDContent</td><td>OSKDContent\OSKDContent.contentproj</td><td/><td>2</td></row>
 		<row><td>OnScreenKeyboardDisplay</td><td>OnScreenKeyboardDisplay\OnScreenKeyboardDisplay.csproj</td><td/><td>2</td></row>
 		<row><td>OnScreenKeyboardDisplayLibrary</td><td>OnScreenKeyboardDisplayLibrary\OnScreenKeyboardDisplayLibrary.csproj</td><td/><td>2</td></row>
@@ -2899,7 +2906,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>OSH</td><td>0</td><td/><td>312543308</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>OSH</td><td>0</td><td/><td>983685134</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40CLIENT</td><td>1033</td><td>Microsoft .NET Framework 4.0 Client Package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>178383344</td></row>
@@ -3712,6 +3719,7 @@
 		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1033</td><td>Updating XML file %s...</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>OSKD</td><td>0</td><td/><td>178349696</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>OSKD Config</td><td>0</td><td/><td>983635405</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>178383328</td></row>
@@ -4001,8 +4009,8 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>178323968</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.google.fr</td><td>0</td><td/><td>312557644</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>OSH</td><td>0</td><td/><td>312543308</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.OSH.com</td><td>0</td><td/><td>983687182</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>OSH</td><td>0</td><td/><td>983685134</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>178373632</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td/><td>0</td><td/><td>312574060</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>178383328</td></row>
@@ -4624,7 +4632,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]OnScreenKeyboardDisplay.Primary output</td><td/></row>
 		<row><td>ProductCode</td><td>{1707DF46-347D-4B88-B544-DFC68D663A47}</td><td/></row>
 		<row><td>ProductName</td><td>OSKD</td><td/></row>
-		<row><td>ProductVersion</td><td>1.0.0</td><td/></row>
+		<row><td>ProductVersion</td><td>2.0.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4703,6 +4711,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="i2">InstallMode</col>
 		<row><td>UNINST_Uninstall_OSKD</td><td>NewComponent1</td><td/><td>oskd</td><td>2</td></row>
 		<row><td>_Built</td><td>OnScreenKeyboardDisplay.Primary_output</td><td/><td>oskd</td><td>2</td></row>
+		<row><td>_Built2</td><td>OSKDConfig.Primary_output</td><td/><td>oskd</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4791,6 +4800,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>UNINST_Uninstall_OSKD</td><td>oskd</td><td>UNINST|Uninstall OSKD</td><td>NewComponent1</td><td>[SystemFolder]msiexec.exe</td><td>/x {1707DF46-347D-4B88-B544-DFC68D663A47}</td><td/><td/><td>UNINST_Uninstall_O_18E401D4130446CE9F284A64CF198098.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>_Built</td><td>oskd</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>OnScreenKeyboardDisplay.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>OnScreenKeyboardDisplay.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built2</td><td>oskd</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>OSKDConfig.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td/><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

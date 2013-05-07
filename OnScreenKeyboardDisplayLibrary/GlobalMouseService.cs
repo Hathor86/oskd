@@ -8,22 +8,31 @@ using Microsoft.Xna.Framework.Graphics;
 using XNATools.Services.Interfaces;
 using XNATools.Managers;
 using XNATools.Enums;
+using XNATools.Services;
+using System.Runtime.InteropServices;
 
-namespace XNATools.Services
+namespace OnScreenKeyboardDisplayLibrary
 {
     /// <summary>
-    /// Class for MouseService
+    /// Class for GlobalMouseService
     /// </summary>
-    public sealed class MouseService : InputServiceBase, IMouseService
+    public sealed partial class GlobalMouseService : GlobalServiceBase, IMouseService
     {
         #region Fields
+
+        private const int WH_MOUSE_LL = 0x00E;
+        private const int MouseWheel = 0x020A;
 
         private MouseState _State;
         private Vector2 _Position = Vector2.One;
         private Vector2 _Offset = Vector2.Zero;
         private Vector2 _OffsetFromCenter = Vector2.Zero;
+
         private MouseState centerState;        // Mouse State when the cursor is in the middle of the screen        
         private MouseState lastState;
+        private MouseLLHookStruct hookStruct;
+        private short wheelValue;
+        private short lastWheelValue;
 
         #endregion
 
@@ -32,13 +41,37 @@ namespace XNATools.Services
         /// <summary>
         /// New MouseService
         /// </summary>
-        public MouseService(Game game)
+        public GlobalMouseService(Game game)
             : base(game)
         { }
 
         #endregion
 
         #region Methods
+
+
+        public override void Hook()
+        {
+            HookID = SetHook(Proc, WH_MOUSE_LL);
+        }
+
+        protected override IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
+        {
+            if (nCode >= 0 && wParam == (IntPtr)MouseWheel)
+            {
+                hookStruct = (MouseLLHookStruct)Marshal.PtrToStructure(lParam, typeof(MouseLLHookStruct));
+                if (hookStruct.mouseData > 0)
+                {
+                    wheelValue = -1;
+                }
+                else
+                {
+                    wheelValue = 1;
+                }
+            }
+
+            return CallNextHookEx(HookID, nCode, wParam, lParam);
+        }
 
         /// <summary>
         /// <see cref="Microsoft.Xna.Framework.GameComponent.Initialize"/>
@@ -48,6 +81,8 @@ namespace XNATools.Services
             Center();
             centerState = Mouse.GetState();
             lastState = Mouse.GetState();
+            wheelValue = 0;
+            lastWheelValue = 0;
             base.Initialize();
         }
 
@@ -67,6 +102,9 @@ namespace XNATools.Services
             _OffsetFromCenter.X = centerState.X - _State.X;
             _OffsetFromCenter.Y = centerState.Y - _State.Y;
 
+            lastWheelValue = wheelValue;
+            wheelValue = 0;
+
             base.Update(gameTime);
         }
 
@@ -81,12 +119,12 @@ namespace XNATools.Services
                 || IsButtonJustPressed(MouseButton.Right)
                 || IsButtonJustPressed(MouseButton.Middle)
                 || IsButtonJustPressed(MouseButton.SideLeft)
-                || IsButtonJustPressed(MouseButton.SideRight)              
+                || IsButtonJustPressed(MouseButton.SideRight)
                 || IsButtonJustReleased(MouseButton.Left)
                 || IsButtonJustReleased(MouseButton.Right)
                 || IsButtonJustReleased(MouseButton.Middle)
                 || IsButtonJustReleased(MouseButton.SideLeft)
-                || IsButtonJustReleased(MouseButton.SideRight)               
+                || IsButtonJustReleased(MouseButton.SideRight)
                 || MouseWheelOffset != 0;
         }
 
@@ -109,7 +147,7 @@ namespace XNATools.Services
 
         #endregion
 
-        #region Properties       
+        #region Properties
 
         #region IMouseService Members
 
@@ -164,7 +202,7 @@ namespace XNATools.Services
         {
             get
             {
-                return lastState.ScrollWheelValue - _State.ScrollWheelValue;
+                return lastWheelValue - wheelValue;
             }
         }
 
@@ -197,7 +235,7 @@ namespace XNATools.Services
                     return _State.XButton1 == ButtonState.Pressed;
 
                 case MouseButton.SideRight:
-                    return _State.XButton2 == ButtonState.Pressed;               
+                    return _State.XButton2 == ButtonState.Pressed;
 
                 default:
                     throw new NotImplementedException("A new mouse button has been created and has not been handled");

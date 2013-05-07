@@ -3,7 +3,7 @@
   <Class Name="XNATools.Engine2D.Sprite">
     <Position X="0.75" Y="1.25" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AW0CAAIAAwwRQ6AnaAJBgAMEYAEECBAUAAIgkAAoIoY=</HashCode>
+      <HashCode>AW0CAAIAAwwRQ6AmaApBgAMEYAEEABAUAAIgkAAoAoY=</HashCode>
       <FileName>2D\Sprite.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -29,7 +29,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="XNATools.Diagnostics.FrameRateCounter">
-    <Position X="10.75" Y="4.75" Width="2" />
+    <Position X="11" Y="5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAQAAAAWAAAAAgAgAAAAAAAAAIAAAAAYAAAAAAACAAA=</HashCode>
       <FileName>Diagnostics\FrameRateCounter.cs</FileName>
@@ -60,7 +60,7 @@
   <Class Name="XNATools.VectorExtension">
     <Position X="14.5" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>VectorExtension.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -80,7 +80,7 @@
     <Lollipop Position="2.356" />
   </Class>
   <Class Name="XNATools.Font.FontInstance">
-    <Position X="13" Y="4.75" Width="2" />
+    <Position X="13.5" Y="5" Width="2" />
     <TypeIdentifier>
       <HashCode>AgACKIAAAAAAAwAoAAAAgAAAEQAAAgAAACCACAAAAAQ=</HashCode>
       <FileName>Font\FontInstance.cs</FileName>

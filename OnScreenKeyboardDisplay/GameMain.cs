@@ -46,17 +46,15 @@ namespace OnScreenKeyboardDisplay
         }
 
         protected override void Initialize()
-        {
-            System.Diagnostics.Process.GetCurrentProcess().PriorityClass = System.Diagnostics.ProcessPriorityClass.Idle;
-            //System.Diagnostics.Process.GetCurrentProcess().ProcessorAffinity = (System.IntPtr)4;
-
+        { 
             ServiceManager.AddSpriteBatch(new SpriteBatch(GraphicsDevice));
             spriteBatch = ServiceManager.Get<SpriteBatch>();
 
             GlobalKeyboardService kService = new GlobalKeyboardService(this);
             kService.Hook();
 
-            MouseService mService = new MouseService(this);
+            GlobalMouseService mService = new GlobalMouseService(this);
+            mService.Hook();
             IsMouseVisible = true;
 
             CachedContentManager<Texture2D> textureCache = new CachedContentManager<Texture2D>(this);
@@ -70,14 +68,14 @@ namespace OnScreenKeyboardDisplay
             Version thisAssemblyVersion = thisAssemblyName.Version;
             AssemblyCodeNameAttribute assemblyCodeName = (AssemblyCodeNameAttribute)thisAssembly.GetCustomAttributes(typeof(AssemblyCodeNameAttribute), true)[0];
 
-            Window.Title = string.Format("{0} V.{1}.{2} \"{3}\"", thisAssemblyName.Name, thisAssemblyVersion.Major, thisAssemblyVersion.Minor, assemblyCodeName.CodeName);
+            Window.Title = string.Format("{0} V.{1}.{2} \"{3}\"", thisAssemblyName.Name, thisAssemblyVersion.Major, thisAssemblyVersion.Minor, assemblyCodeName.CodeName);         
 
             // If window needs to be pinned/unpinned
             if (showWindowBorder)
             {
                 if (pinWindow)
                 {
-                    User32.SetWindowPos((uint)this.Window.Handle, -1, windowPositionX - 3, windowPositionY - 22, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, 1);
+                    User32.SetWindowPos((uint)this.Window.Handle, -1, windowPositionX - 3, windowPositionY - 22, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, 0);
                 }
                 else
                 {
@@ -109,14 +107,6 @@ namespace OnScreenKeyboardDisplay
 
         protected override void Update(GameTime gameTime)
         {
-            windowPositionX = Window.ClientBounds.X;
-            windowPositionY = Window.ClientBounds.Y;
-
-            // Used to keep window on top
-            IntPtr hWnd = this.Window.Handle;
-            var control = System.Windows.Forms.Control.FromHandle(hWnd);
-            var form = control.FindForm();
-
             base.Update(gameTime);
         }
 
@@ -124,16 +114,7 @@ namespace OnScreenKeyboardDisplay
         {
             GraphicsDevice.Clear(backColor);
 
-            spriteBatch.Begin();
-
-            if (pinWindow)
-            {
-                //spriteBatch.Draw(pinWindowIMG, keyboard.Position, Color.White);
-            }
-            else
-            {
-                //spriteBatch.Draw(keyboardBaseIMG, keyboardPosition, Color.White);
-            }
+            spriteBatch.Begin();          
 
             base.Draw(gameTime);
 
@@ -144,6 +125,10 @@ namespace OnScreenKeyboardDisplay
         {
             GlobalKeyboardService kservice = ServiceManager.Get<IKeyboardService>() as GlobalKeyboardService;
             kservice.Unhook();
+
+            GlobalMouseService mservice = ServiceManager.Get<IMouseService>() as GlobalMouseService;
+            mservice.Unhook();
+
             base.OnExiting(sender, args);
         }
     }
