@@ -31,13 +31,13 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>OSKD</ProductName>
-    <PublisherName>Moi</PublisherName>
-    <SuiteName>Me</SuiteName>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <PublisherName>OSKD</PublisherName>
+    <SuiteName>OSH</SuiteName>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>2.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,7 +72,7 @@
     <ManifestKeyFile>Keyboard Display Beta_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>false</GenerateManifests>
+    <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
@@ -80,6 +80,7 @@
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup />
@@ -143,9 +144,18 @@
     <Content Include="Game.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EmptyContent\EmptyContent.contentproj">
+      <Project>{F06073C5-05F2-42A5-B228-A4881F3F82EB}</Project>
+      <Name>EmptyContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
     <ProjectReference Include="..\OnScreenKeyboardDisplayLibrary\OnScreenKeyboardDisplayLibrary.csproj">
       <Project>{A70D0A3B-1FF8-4BD8-81BA-9E9912D4A947}</Project>
       <Name>OnScreenKeyboardDisplayLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OSKDConfig\OSKDConfig.csproj">
+      <Project>{C110272C-B3E3-4E44-A62C-F1E7535B6B4C}</Project>
+      <Name>OSKDConfig</Name>
     </ProjectReference>
     <ProjectReference Include="..\XNATools\XNATools.csproj">
       <Project>{286D6990-2938-468D-B72E-8A6B173E37D2}</Project>
@@ -153,9 +163,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -186,6 +196,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\app.manifest" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

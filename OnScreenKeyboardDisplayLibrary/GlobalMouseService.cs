@@ -16,7 +16,7 @@ namespace OnScreenKeyboardDisplayLibrary
     /// <summary>
     /// Class for GlobalMouseService
     /// </summary>
-    public unsafe sealed partial class GlobalMouseService : GlobalServiceBase, IMouseService
+    public sealed partial class GlobalMouseService : GlobalServiceBase, IMouseService
     {
         #region Fields
 
@@ -47,22 +47,16 @@ namespace OnScreenKeyboardDisplayLibrary
 
         #endregion
 
-        #region Methods
-
-        [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
-        new private static extern int* CallNextHookEx(IntPtr hookID, int nCode, int* wParam, int* lParam);
-
-        protected override IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
-        { return IntPtr.Zero; }
+        #region Methods        
 
         public override void Hook()
         {
             HookID = SetHook(Proc, WH_MOUSE_LL);
         }
 
-        private unsafe int* HookCallback(int nCode, int* wParam, int* lParam)
+        protected override IntPtr HookCallback(int nCode, IntPtr wParam, IntPtr lParam)
         {
-            if (nCode >= 0 && *wParam == MouseWheel)
+            if (nCode >= 0 && wParam == (IntPtr)MouseWheel)
             {
                 /*hookStruct = (MouseLLHookStruct)Marshal.PtrToStructure(lParam, typeof(MouseLLHookStruct));
                 if (hookStruct.mouseData > 0)
