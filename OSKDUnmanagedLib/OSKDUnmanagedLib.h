@@ -1,13 +1,4 @@
-// OSKDUnmanagedLib.h
+//#define WH_MOUSE_LL (0x00E)
+#define MouseWheel (0x020A)
 
-#pragma once
-
-//using namespace System;
-
-namespace OSKDUnmanagedLib {
-
-	/*public ref class Class1
-	{
-		// TODO: Add your methods for this class here.
-	};*/
-}
+#include <Windows.h>

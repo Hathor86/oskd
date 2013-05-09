@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Circle.png</Source>
+      <Name>Circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Circle.xnb</Output>
+      <Time>2013-05-07T15:00:55.8342326+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Dot.png</Source>
+      <Name>Dot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Dot.xnb</Output>
+      <Time>2013-05-07T15:00:55.8342326+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Blue\LMB.png</Source>
+      <Name>Mouse\Blue\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Blue\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7935669+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Blue\MMB.png</Source>
+      <Name>Mouse\Blue\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Blue\MMB.xnb</Output>
+      <Time>2013-05-07T15:00:55.8352327+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Blue\RMB.png</Source>
+      <Name>Mouse\Blue\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Blue\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.794567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Blue\X1.png</Source>
+      <Name>Mouse\Blue\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Blue\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.794567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Blue\X2.png</Source>
+      <Name>Mouse\Blue\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Blue\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.795567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>ColorPicker.png</Source>
+      <Name>ColorPicker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\ColorPicker.xnb</Output>
+      <Time>2012-12-10T10:20:44.5460254+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Red.png</Source>
+      <Name>Keyboard\Red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Red.xnb</Output>
+      <Time>2013-05-02T12:18:06.7905668+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Blue.png</Source>
+      <Name>Keyboard\Blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Blue.xnb</Output>
+      <Time>2013-05-02T12:18:06.7815662+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Green.png</Source>
+      <Name>Keyboard\Green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Green.xnb</Output>
+      <Time>2013-05-02T12:18:06.7835664+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Orange.png</Source>
+      <Name>Keyboard\Orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Orange.xnb</Output>
+      <Time>2013-05-02T12:18:06.7855665+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Pink.png</Source>
+      <Name>Keyboard\Pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Pink.xnb</Output>
+      <Time>2013-05-02T12:18:06.7865665+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Purple.png</Source>
+      <Name>Keyboard\Purple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Purple.xnb</Output>
+      <Time>2013-05-02T12:18:06.7885666+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Teal.png</Source>
+      <Name>Keyboard\Teal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Teal.xnb</Output>
+      <Time>2013-05-02T12:18:06.7925669+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Keyboard\Yellow.png</Source>
+      <Name>Keyboard\Yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Keyboard\Yellow.xnb</Output>
+      <Time>2013-05-02T12:18:06.7935669+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Green\LMB.png</Source>
+      <Name>Mouse\Green\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Green\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.795567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Green\MMB.png</Source>
+      <Name>Mouse\Green\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Green\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.795567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Green\RMB.png</Source>
+      <Name>Mouse\Green\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Green\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.795567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Green\X1.png</Source>
+      <Name>Mouse\Green\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Green\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.795567+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Green\X2.png</Source>
+      <Name>Mouse\Green\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Green\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.7965671+02:00</Time>
+    </Item>
+    <Item>
+      <Source>KeyboardBase.png</Source>
+      <Name>KeyboardBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\KeyboardBase.xnb</Output>
+      <Time>2012-12-19T16:02:56.7406078+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MouseBase.png</Source>
+      <Name>MouseBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\MouseBase.xnb</Output>
+      <Time>2013-05-02T12:24:02.4539095+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Orange\LMB.png</Source>
+      <Name>Mouse\Orange\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Orange\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7965671+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Orange\MMB.png</Source>
+      <Name>Mouse\Orange\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Orange\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7965671+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Orange\RMB.png</Source>
+      <Name>Mouse\Orange\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Orange\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7965671+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Orange\X1.png</Source>
+      <Name>Mouse\Orange\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Orange\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.7975672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Orange\X2.png</Source>
+      <Name>Mouse\Orange\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Orange\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.7975672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Pink\LMB.png</Source>
+      <Name>Mouse\Pink\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Pink\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7975672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Pink\MMB.png</Source>
+      <Name>Mouse\Pink\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Pink\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7975672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Pink\RMB.png</Source>
+      <Name>Mouse\Pink\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Pink\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7985672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Pink\X1.png</Source>
+      <Name>Mouse\Pink\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Pink\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.7985672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Pink\X2.png</Source>
+      <Name>Mouse\Pink\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Pink\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.7985672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Purple\LMB.png</Source>
+      <Name>Mouse\Purple\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Purple\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7985672+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Purple\MMB.png</Source>
+      <Name>Mouse\Purple\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Purple\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7995673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Purple\RMB.png</Source>
+      <Name>Mouse\Purple\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Purple\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7995673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Purple\X1.png</Source>
+      <Name>Mouse\Purple\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Purple\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.7995673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Purple\X2.png</Source>
+      <Name>Mouse\Purple\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Purple\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.7995673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Red\LMB.png</Source>
+      <Name>Mouse\Red\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Red\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.7995673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Red\MMB.png</Source>
+      <Name>Mouse\Red\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Red\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8005673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Red\RMB.png</Source>
+      <Name>Mouse\Red\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Red\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8005673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Red\X1.png</Source>
+      <Name>Mouse\Red\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Red\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.8005673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Red\X2.png</Source>
+      <Name>Mouse\Red\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Red\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.8005673+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Teal\LMB.png</Source>
+      <Name>Mouse\Teal\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Teal\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8015674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Teal\MMB.png</Source>
+      <Name>Mouse\Teal\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Teal\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8015674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Teal\RMB.png</Source>
+      <Name>Mouse\Teal\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Teal\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8015674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Teal\X1.png</Source>
+      <Name>Mouse\Teal\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Teal\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.8015674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Teal\X2.png</Source>
+      <Name>Mouse\Teal\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Teal\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.8015674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Yellow\LMB.png</Source>
+      <Name>Mouse\Yellow\LMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Yellow\LMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8025674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Yellow\MMB.png</Source>
+      <Name>Mouse\Yellow\MMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Yellow\MMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8025674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Yellow\RMB.png</Source>
+      <Name>Mouse\Yellow\RMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Yellow\RMB.xnb</Output>
+      <Time>2013-05-02T12:18:06.8025674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Yellow\X1.png</Source>
+      <Name>Mouse\Yellow\X1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Yellow\X1.xnb</Output>
+      <Time>2013-05-02T12:18:06.8025674+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Mouse\Yellow\X2.png</Source>
+      <Name>Mouse\Yellow\X2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\Mouse\Yellow\X2.xnb</Output>
+      <Time>2013-05-02T12:18:06.8035675+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OnScreenKeyboardDisplayLibrary\bin\x86\Debug\OSKDContent\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-04-21T17:15:58.8247658+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

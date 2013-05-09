@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Layout xmlns="http://www.w3schools.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation=" http://www.w3schools.com LayoutSchema.xsd"
+        xmlns:custom="http://www.w3schools.com"
+        >
+  <!--1st row => Esc-F12-->
+  <Key>
+    <Value>Esc</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>2</Y>
+  </Key>
+
+  <Key>
+    <Value>F1</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>36</X>
+    <Y>2</Y>
+  </Key>
+  <Key>
+    <Value>F2</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F3</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F4</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+
+  <Key>
+    <Value>F5</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>126</X>
+    <Y>2</Y>
+  </Key>
+  <Key>
+    <Value>F6</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F7</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F8</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+
+  <Key>
+    <Value>F9</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>217</X>
+    <Y>2</Y>
+  </Key>
+  <Key>
+    <Value>F10</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F11</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>F12</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+
+  <!--2nd row => Top row numbers-->
+  <Key>
+    <Value>Tilde</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>23</Y>
+  </Key>
+  <Key>
+    <Value>1</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>2</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>3</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>4</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>5</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>6</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>7</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>8</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>9</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>0</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Minus</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Plus</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Backspace</Value>
+    <ButtonType>Rectangle30</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+
+  <!--3rd row => Tab-Baclslash-->
+  <Key>
+    <Value>Tab</Value>
+    <ButtonType>Rectangle30</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>42</Y>
+  </Key>
+  <Key>
+    <Value>Q</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>W</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>E</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>R</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>T</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Y</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>U</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>I</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>O</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>P</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>OpenBracket</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>CloseBracket</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Backslash</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+
+  <!--4th row => Caps Lock -> Enter-->
+  <Key>
+    <Value>CapsLock</Value>
+    <ButtonType>Rectangle36</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>61</Y>
+  </Key>
+  <Key>
+    <Value>A</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>S</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>D</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>F</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>G</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>H</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>J</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>K</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>L</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Semicolon</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Quotes</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Enter</Value>
+    <ButtonType>Rectangle36</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+
+  <!--5th row => Shift-Shift-->
+  <Key>
+    <Value>LeftShift</Value>
+    <ButtonType>Rectangle43</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>80</Y>
+  </Key>
+  <Key>
+    <Value>Z</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>X</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>C</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>V</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>B</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>N</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>M</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Comma</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Period</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Question</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>RightShift</Value>
+    <ButtonType>Rectangle48</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+
+  <!--6th row => Left Ctrl -> Right Ctrl-->
+  <Key>
+    <Value>LeftControl</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>6</X>
+    <Y>99</Y>
+  </Key>
+  <Key>
+    <Value>LeftWindows</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>LeftAlt</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Spacebar</Value>
+    <ButtonType>Rectangle123</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>RightAlt</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>RightWindows</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Menu</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>RightControl</Value>
+    <ButtonType>Rectangle24</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+
+  <!--Misc Key => Print Screen, PageUp, etc...-->
+  <Key>
+    <Value>PrintScreen</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>302</X>
+    <Y>2</Y>
+  </Key>
+  <Key>
+    <Value>ScrollLock</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Pause</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Insert</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>302</X>
+  </Key>
+  <Key>
+    <Value>Home</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>PageUp</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Delete</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>302</X>
+  </Key>
+  <Key>
+    <Value>End</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>PageDown</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType  custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  
+  <!--Arrows-->
+  <Key>
+    <Value>Up</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>322</X>
+    <Y>80</Y>
+  </Key>  
+  <Key>
+    <Value>Left</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>302</X>    
+  </Key>
+  <Key>
+    <Value>Down</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>   
+  </Key>
+  <Key>
+    <Value>Right</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>   
+  </Key> 
+  
+  <!--Lights-->
+<Key>
+    <Value>NumLockLight</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>367</X>
+    <Y>2</Y>
+  </Key>
+  <Key>
+    <Value>CapsLockLight</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>ScrollLockLight</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  
+  <!--Numpad-->
+  <Key>
+    <Value>NumLock</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>367</X>
+    <Y>23</Y>
+  </Key>
+  <Key>
+    <Value>Divide</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>    
+  </Key>
+  <Key>
+    <Value>Multiply</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Substract</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad7</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>367</X>
+  </Key>
+  <Key>
+    <Value>Numpad8</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad9</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad4</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>367</X>
+  </Key>
+  <Key>
+    <Value>Numpad5</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad6</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Add</Value>
+    <ButtonType>VerticalRectangle</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>427</X>
+    <Y>42</Y>
+  </Key>
+  <Key>
+    <Value>Numpad1</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>367</X>
+  </Key>
+  <Key>
+    <Value>Numpad2</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad3</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>Numpad0</Value>
+    <ButtonType>Rectangle43</ButtonType>
+    <PositionType custom:AxisRef="Y">Relative</PositionType>
+    <X>367</X>
+  </Key>
+  <Key>
+    <Value>Decimal</Value>
+    <ButtonType>Square</ButtonType>
+    <PositionType custom:AxisRef="X">Relative</PositionType>
+  </Key>
+  <Key>
+    <Value>NumpadEnter</Value>
+    <ButtonType>VerticalRectangle</ButtonType>
+    <PositionType>Absolute</PositionType>
+    <X>427</X>
+    <Y>80</Y>
+  </Key>
+</Layout>
