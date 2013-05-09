@@ -1,4 +1,2 @@
-//#define WH_MOUSE_LL (0x00E)
-#define MouseWheel (0x020A)
-
 #include <Windows.h>
+//#define UWM_MOUSEHOOK_MSG _T("UMW_MOUSEHOOK-{B30856F0-D3DD-11d4-A00B-006067718D04}")

@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNAToolsContent", "XNATools\Content\XNAToolsContent.contentproj", "{A9EDA70E-9500-4F01-B53A-F22924B7630F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnScreenKeyboardDisplayLibrary", "OnScreenKeyboardDisplayLibrary\OnScreenKeyboardDisplayLibrary.csproj", "{A70D0A3B-1FF8-4BD8-81BA-9E9912D4A947}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E4F9445-DD46-40FF-A4B3-CD80EE8423F6} = {4E4F9445-DD46-40FF-A4B3-CD80EE8423F6}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSKDContent", "OSKDContent\OSKDContent.contentproj", "{1BDB74D7-B9A1-4FFD-B592-A90CA103E334}"
 EndProject
