@@ -1,14 +1,9 @@
-﻿Build started 9/05/2013 12:15:11.
-     1>Project "C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDUnmanagedLib\OSKDUnmanagedLib.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Debug\OSKDUnmanagedLib.unsuccessfulbuild".
-       ClCompile:
-         All outputs are up-to-date.
-         C:\Data\Programs\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OSKDUnmanagedLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OSKDUnmanagedLib.cpp
-         OSKDUnmanagedLib.cpp
-     1>c:\data\mes documents\visual studio 2010\projects\onscreenkeyboarddisplay\oskdunmanagedlib\oskdunmanagedlib.cpp(10): error C2065: 'MouseCallBack' : undeclared identifier
-     1>Done Building Project "C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDUnmanagedLib\OSKDUnmanagedLib.vcxproj" (build target(s)) -- FAILED.
+﻿Build started 9/05/2013 13:22:23.
+     1>Project "C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDUnmanagedLib\OSKDUnmanagedLib.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\OSKDUnmanagedLib.lastbuildstate".
+     1>Done Building Project "C:\Data\Mes documents\Visual Studio 2010\Projects\OnScreenKeyboardDisplay\OSKDUnmanagedLib\OSKDUnmanagedLib.vcxproj" (clean target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.82
+Time Elapsed 00:00:00.01
