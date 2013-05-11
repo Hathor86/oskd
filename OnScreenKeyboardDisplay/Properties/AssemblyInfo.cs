@@ -38,5 +38,5 @@ using XNATools.Attributes;
 [assembly: AssemblyVersion("0.0.0.0")]
 #else
 [assembly: AssemblyCodeName("Morpheel")]
-[assembly: AssemblyVersion("2.1.*")]
+[assembly: AssemblyVersion("2.2.*")]
 #endif

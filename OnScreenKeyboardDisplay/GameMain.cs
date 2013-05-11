@@ -52,10 +52,8 @@ namespace OnScreenKeyboardDisplay
 
             GlobalKeyboardService kService = new GlobalKeyboardService(this);
             kService.Hook();
-
-            //GlobalMouseService mService = new GlobalMouseService(this);
-            MouseService mservice = new MouseService(this);
-            //mService.Hook();
+            
+            MouseService mservice = new MouseService(this);            
             IsMouseVisible = true;
 
             CachedContentManager<Texture2D> textureCache = new CachedContentManager<Texture2D>(this);
@@ -125,10 +123,7 @@ namespace OnScreenKeyboardDisplay
         protected override void OnExiting(object sender, EventArgs args)
         {
             GlobalKeyboardService kservice = ServiceManager.Get<IKeyboardService>() as GlobalKeyboardService;
-            kservice.Unhook();
-
-            GlobalMouseService mservice = ServiceManager.Get<IMouseService>() as GlobalMouseService;
-            mservice.Unhook();
+            kservice.Unhook();           
 
             base.OnExiting(sender, args);
         }
