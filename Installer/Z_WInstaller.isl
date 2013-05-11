@@ -4009,7 +4009,7 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>178383328</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>178323968</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://www.OSH.com</td><td>0</td><td/><td>983687182</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.google.fr</td><td>0</td><td/><td>1520524458</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>OSH</td><td>0</td><td/><td>983685134</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>178373632</td></row>
 		<row><td>ID_STRING5</td><td>1033</td><td/><td>0</td><td/><td>312574060</td></row>
@@ -4254,7 +4254,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{171BDCE2-7DB0-4144-88DC-215EC8F72008}</td></row>
 		<row><td>ISUSSignature</td><td>{0D0DDEB5-C66C-45A7-96CA-573E32868DF1}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppFiles,viewSetupTypes,viewSetupDesign,viewProject,viewRealSetupDesign,viewUpgradePaths,viewUpdateService,viewSystemSearch,viewRelease,viewShortcuts,viewSupportFiles</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppFiles,viewSetupTypes,viewSetupDesign,viewProject,viewRealSetupDesign,viewUpgradePaths,viewUpdateService,viewSystemSearch,viewRelease,viewShortcuts,viewSupportFiles,viewDependencies</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4632,7 +4632,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]OnScreenKeyboardDisplay.Primary output</td><td/></row>
 		<row><td>ProductCode</td><td>{1707DF46-347D-4B88-B544-DFC68D663A47}</td><td/></row>
 		<row><td>ProductName</td><td>OSKD</td><td/></row>
-		<row><td>ProductVersion</td><td>2.0.0</td><td/></row>
+		<row><td>ProductVersion</td><td>2.2.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
