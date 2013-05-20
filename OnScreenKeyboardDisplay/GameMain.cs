@@ -10,6 +10,7 @@ using XNATools.Managers;
 using XNATools.Services;
 using XNATools.Services.Interfaces;
 using Graph = OnScreenKeyboardDisplayLibrary.Sprites;
+using System.Diagnostics;
 
 namespace OnScreenKeyboardDisplay
 {
@@ -69,7 +70,9 @@ namespace OnScreenKeyboardDisplay
             Version thisAssemblyVersion = thisAssemblyName.Version;
             AssemblyCodeNameAttribute assemblyCodeName = (AssemblyCodeNameAttribute)thisAssembly.GetCustomAttributes(typeof(AssemblyCodeNameAttribute), true)[0];
 
-            Window.Title = string.Format("{0} V.{1}.{2} \"{3}\"", thisAssemblyName.Name, thisAssemblyVersion.Major, thisAssemblyVersion.Minor, assemblyCodeName.CodeName);         
+            Window.Title = string.Format("{0} V.{1}.{2} \"{3}\"", thisAssemblyName.Name, thisAssemblyVersion.Major, thisAssemblyVersion.Minor, assemblyCodeName.CodeName);
+
+            Process.GetCurrentProcess().PriorityClass = ProcessPriorityClass.High;
 
             // If window needs to be pinned/unpinned
             if (showWindowBorder)
